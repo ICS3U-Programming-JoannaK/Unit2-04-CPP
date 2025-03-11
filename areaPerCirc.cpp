@@ -22,8 +22,8 @@ int main() {
     area = M_PI * radius * radius;
 
     // display the circumference to the user
-    std::cout << "Circumference = " << circumference << "mm" << std::endl;
-    std::cout << "Area = " << area << "mm" << std::endl;
-    std::cout << std::fixed << std::setprecision(2) << std::setfill('0') << area << "\n";
-    std::cout << std::fixed << std::setprecision(2) << std::setfill('0') << circumference << "\n";
+    std::cout << "Circumference = " << std::fixed << std::setprecision(2)
+    << circumference << "mm" << std::endl;
+    std::cout << "Area = " << std::fixed << std::setprecision(2)
+              << area << "mm" << std::endl;
 }
